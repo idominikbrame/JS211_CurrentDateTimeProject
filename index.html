@@ -11,5 +11,45 @@
     <div id="display-element"></div>
     <button onclick="displayDate()">Click Me</button>
     <hr/>
+
+    <label>Convert Number to String</label>
+    <input placeholder="Type a number" id="number">
+    <input type="button" onclick="num2string()" value="convert">
+    <h1 id="converted" value=""></h1>
+
+
+    <label>Convert String to Number</label>
+    <input placeholder="Type a number" id="numberString">
+    <input type="button" onclick="string2num()" value="convert">
+    <h1 id="convertedNumber"></h1>
+
+    <label>Which Data Type</label>
+      <input placeholder="Type a number" id="whichType">
+      <input type="button" onclick="whichType()" value="which type">
+    <h1 id="showType"></h1>
+
+    <label>Add numbers</label>
+    <input placeholder="Number A" id="numberA">
+    <input placeholder="Number B" id="numberB">
+    <input type="button" onclick="aPlusB()" value="Add Numbers">
+    <h1 id="result"></h1>
+
+    <label> Check if your inputs are truthy </label>
+    <input placeholder="Input anything" id="truthyOrNah2">
+    <input placeholder="Input anything" id="truthyOrNah1">
+    <input type="button" onclick="truthy()" value="check">
+    <h1 id="isTruthy"></h1>
+
+    <label> Check to see if at least one input is truthy </label>
+    <input placeholder="Input anything" id="oneTruthy1">
+    <input placeholder="Input anything" id="oneTruthy2">
+    <input type="button" onclick="oneTruthy()" value="check">
+    <h1 id="isOneTruthy"></h1>
+
+    <label> Check to see if (0) inputs are truthy </label>
+    <input placeholder="Input anything" id="noTruthy1">
+    <input placeholder="Input anything" id="noTruthy2">
+    <input type="button" onclick="noTruthy()" value="check">
+    <h1 id="isNoTruthy"></h1>
   </body>
 </html>
